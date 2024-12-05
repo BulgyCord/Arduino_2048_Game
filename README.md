@@ -6,17 +6,17 @@ A 2048 inspired game implemented using arduino, playable on a LCD screen. The pu
 
  ## _Components_
 
--LCD 128x128
+- LCD 128x128
 
--Breadboard
+- Breadboard
 
--Arduino Uno/ATmega328P
+- Arduino Uno/ATmega328P
 
--4x Buttons
+- 4x Buttons
 
--4x Resistors
+- 4x Resistors
 
--Wires
+- Wires
 
  ## _Flow_
 
