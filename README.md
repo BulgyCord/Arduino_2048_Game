@@ -44,6 +44,8 @@ The joystick is used to navigate through the menu, it is also used to make moves
 
 ## _Physical Configuration_
 
+![image](https://github.com/user-attachments/assets/d67913d4-beec-43e4-bc14-5a71c7178163)
+
 ## _Code_
 
 
