@@ -23,10 +23,15 @@ A 2048 inspired game implemented using Arduino, playable on a LCD screen. The pu
  ## _Flow_
 
 When powered on the LCD shows a menu that has 2 options to select New Game and High Scores.
+
 When selecting "New Game" the player starts a game of 2048 that lasts 2 minutes. 
 The game acts like a normal 2048 game. 
-The player starts with a number of tiles labeled with the number 2, they have to combine said tiles in order to make a greater number, the start case being a tile with the label 4, and so on. The player has 4 buttons each representing a direction: up, down, left or right. Each move made moves all the tiles already on the board in the specified direction and creates after it a tile where the space allows it, players have to calculate each move in order not to mistakenly fill up their space.
+The player starts with a number of tiles labeled with the number 2, they have to combine said tiles in order to make a greater number, the start case being a tile with the label 4, and so on.
+
+The player has 4 buttons each representing a direction: up, down, left or right. Each move made moves all the tiles already on the board in the specified direction and creates after it a tile where the space allows it, players have to calculate each move in order not to mistakenly fill up their space.
+
 When the player adds 2 tiles, depending on the sum of the tiles, a number of seconds are incremented back into the timer and a score is added to the total score of that round. 
+
 The game ends when the timer hits 0 or when there is no space left for the tiles to spawn. 
 At the end of a round, the total score is shown and the player can add a username made of 3 letters. In the "High Scores" menu players can see the usernames that they or others have created at the end of a round with the total score.
 
@@ -45,6 +50,10 @@ The joystick is used to navigate through the menu, it is also used to make moves
 ## _Physical Configuration_
 
 ![image](https://github.com/user-attachments/assets/d67913d4-beec-43e4-bc14-5a71c7178163)
+
+## _Block Diagram_
+
+![image](https://github.com/user-attachments/assets/fb891caf-d682-449d-a7d7-83680e0a80b3)
 
 ## _Code_
 
