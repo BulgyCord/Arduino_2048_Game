@@ -2,19 +2,21 @@
 
  ## _Description_
 
-A 2048 inspired game implemented using arduino, playable on a LCD screen. The purpose of the game is to merge two of the same numbered tiles in order to create the sum of those tiles into a new tile with the end goal being to have a high score in a limited time.
+A 2048 inspired game implemented using Arduino, playable on a LCD screen. The purpose of the game is to merge two of the same numbered tiles in order to create the sum of those tiles into a new tile with the end goal being to have a high score in a limited time.
 
  ## _Components_
 
 - LCD 128x128
 
-- Breadboard
+- 2x Breadboard
 
 - Arduino Uno/ATmega328P
 
-- 4x Buttons
+- 2x Buttons
 
-- 4x Resistors
+- 3x Resistors (2x 1 kΩ, 1x 200 Ω)
+
+- 1x Joystick  
 
 - Wires
 
@@ -30,7 +32,15 @@ At the end of a round, the total score is shown and the player can add a usernam
 
 ## _Technical Details_
 
-## _TinkerCAD Configuration_
+The LCD is the screen that shows all the menus including the game itself.
+
+The 2 buttons are used to interact with the menu screen. The first button acts like a select button, while the other as a "go back" button.
+
+The joystick is used to navigate through the menu, it is also used to make moves in the game.
+
+## _Wokwi Configuration_
+
+![image](https://github.com/user-attachments/assets/14e4e799-74eb-43ba-939d-1cee6f50aa8e)
 
 ## _Physical Configuration_
 
