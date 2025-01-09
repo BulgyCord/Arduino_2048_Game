@@ -6,11 +6,11 @@ A 2048 inspired game implemented using Arduino, playable on a LCD screen. The pu
 
  ## _Components_
 
-- LCD 128x128
+- LCD TFT 240*320
 
-- 2x Breadboard
+- 3x Breadboard
 
-- Arduino Uno/ATmega328P
+- ESP32-WROOM-32
 
 - 2x Buttons
 
@@ -49,7 +49,7 @@ The joystick is used to navigate through the menu, it is also used to make moves
 
 ## _Physical Configuration_
 
-![image](https://github.com/user-attachments/assets/d67913d4-beec-43e4-bc14-5a71c7178163)
+![2048](https://github.com/user-attachments/assets/9537b10b-ae54-4051-94ed-19471b8601b1)
 
 ## _Block Diagram_
 
